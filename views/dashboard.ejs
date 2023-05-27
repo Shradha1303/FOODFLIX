@@ -1,0 +1,59 @@
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #b6d1c0;
+        }
+        .maincontainer{
+          width: 100%;
+          height: 100vh;
+        
+        
+        }
+        .navbox{
+            width: 100%;
+            height: 8vh;
+            background: #bfc963;
+           display: flex;   
+           
+        
+        }
+        </style>
+        
+        <html>
+            <head>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+                
+                <title>FOODFLIX</title>
+                <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+            </head>
+    <body>
+        <div class="maincontainer">
+            <div class="navbox">
+             <div style="width:40px;  padding: 10px; align-self: center;"><img src="/images/logo.png" style="width: 80px; "></div>
+             <div style=" padding : 24px; color:#fff; align-self:center; font-size: 16px; font-family: Poppins; font-weight: bold;letter-spacing: 1px;">The Naan House</div>
+            
+             <div style="width:65%; display: flex; justify-content: center; align-items: center;">
+                <a href="/food/foodinterface"" target="mw" style="text-decoration: none;color:#fff; font-size: 14px; font-family: Poppins; font-weight:600;letter-spacing: 1px;margin-right: 5%; ">Add Food Item</a>
+                <a href="/food/all_details" target="mw" style="text-decoration: none;color:#fff; font-size: 14px; font-family: Poppins; font-weight:600;letter-spacing: 1px;margin-right: 5%; ">Item List</a>
+                <a href="/admin/logout" target="_blank" style="text-decoration: none;color:#fff; font-size: 14px; font-family: Poppins; font-weight:600;letter-spacing: 1px;margin-right: 5%; ">Logout</a>
+        
+             </div>
+             <div style="text-decoration: none;color:#fff; font-size: 14px; font-family: Poppins; font-weight:600;letter-spacing: 1px;margin-right: 5%; align-self: center; ">
+            
+                <%=admin.adminname %>
+             </div>
+             <div style="align-self: center;">
+                <img src="/images/<%=admin.picture%>" style="border-radius: 15px; width: 30px;"/>
+             </div>
+            </div>
+            <div>
+                <iframe width="100%" height="92%" name="mw" frameborder="0"></iframe>
+            </div>
+        </div>
+    </body>
+        </html>
