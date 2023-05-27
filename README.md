@@ -27,6 +27,7 @@ To run this application, you need to have the following:
 
 * Node.js (version >= 10)
 * NPM (Node Package Manager) or Yarn
+* MYSQL Workbench
 
 ## Technologies Used ##
 
