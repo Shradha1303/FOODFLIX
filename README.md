@@ -22,6 +22,7 @@ This repository contains a CRUD (Create, Read, Update, Delete) application with 
         ![image](https://github.com/Shradha1303/FOODFLIX/assets/101780065/9c0b716e-56fc-4a3f-83b4-3a86d1d2b2d0)
 
     * **Logout**: Users can securely log out of the application.
+  
 ## Prerequisites ##
 To run this application, you need to have the following:
 
@@ -31,9 +32,9 @@ To run this application, you need to have the following:
 
 ## Technologies Used ##
 
-Node.js - A JavaScript runtime environment.
-Express.js - A web application framework for Node.js.
-MySQL - A SQL database for storing application data.
-Multer - A middleware for handling file uploads.
-EJS - A simple templating language for generating HTML markup.
-MUI - A  React UI framework.
+* Node.js - A JavaScript runtime environment.
+* Express.js - A web application framework for Node.js.
+* MySQL - A SQL database for storing application data.
+* Multer - A middleware for handling file uploads.
+* EJS - A simple templating language for generating HTML markup.
+* MUI - A  React UI framework.
